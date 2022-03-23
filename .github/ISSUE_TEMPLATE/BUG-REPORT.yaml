@@ -1,18 +1,24 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[Bug] "
+labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: description
     attributes:
       label: Describe the Issue
-      description: What were you trying to do, what did you expect, and what was the actual result?
+      description: Please provide a clear and concise description of the bug here. Include screenshots if needed.
       placeholder: Describe the issue here
-      value: "A bug happened!"
+      value: |
+        ## What were you trying to do?
+        
+        ## Expected Behavior
+        
+        ## Actual Result
+        
+        ## Steps to Reproduce
+        1.
+        2.
     validations:
       required: true
   - type: dropdown
